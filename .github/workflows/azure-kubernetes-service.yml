@@ -12,7 +12,7 @@ env:
   RESOURCE_GROUP: 'cont-registry-rg'
   CLUSTER_NAME: 'aks-mflix-production'
   DEPLOYMENT_MANIFEST_PATH: './product.yml'
-  DOCKER_PATH: './DockerfileProducts'
+  DOCKER_PATH: './DockerfileProducts.acr'
 
 jobs:
   buildImage:
