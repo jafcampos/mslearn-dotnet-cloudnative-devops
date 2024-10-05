@@ -14,7 +14,7 @@ spec:
       nodeSelector:
         kubernetes.io/os: linux
       containers:
-        - image: [replace with your ACR name].azurecr.io/productservice:latest
+        - image: allimagescr.azurecr.io/dotnet/productservice:latest
           name: productservice
           resources:
             requests:
