@@ -7,7 +7,7 @@ on:
 
 env:
   # Local environment variables used later in the workflow
-  AZURE_CONTAINER_REGISTRY: 'allimagescr.azurecr.io'
+  AZURE_CONTAINER_REGISTRY: 'allimagescr'
   CONTAINER_NAME: 'dotnet/productservice'
   RESOURCE_GROUP: 'cont-registry-rg'
   CLUSTER_NAME: 'aks-mflix-production'
